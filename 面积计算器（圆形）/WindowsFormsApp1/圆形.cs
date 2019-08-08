@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
         {
             double realdia = Convert.ToDouble(textBox1.Text);
             string realarea = comboBox1.Text;
-            textBox2.Text = getarea(realarea, realdia).ToString();
+            textBox2.Text = getarea(realarea, realdia).ToString("0.000");
         }
     }
 }
